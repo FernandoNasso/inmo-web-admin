@@ -1,0 +1,47 @@
+.headerContainer {
+  font-family: 'Roboto Mono';
+  font-weight: lighter;
+  background: rgba(255, 253, 253, 0.93);
+  padding: 1rem; /* Añade un poco de relleno al encabezado */
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Divide el espacio en dos columnas */
+  align-items: center;
+}
+
+.leftColumn {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 12rem;
+  padding: 0rem;
+  margin: 0.5rem 1rem 0.5rem 5rem;
+}
+
+.rightColumn {
+  font-family: 'Roboto Mono';
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  margin: 0.8rem;
+    
+  }
+  
+  .facebookIcon {
+    font-size: 2.6rem; /* Ajusta el tamaño según sea necesario */
+    color: #3b5998; /* Ajusta el color según tus preferencias */
+    margin: 1rem 3rem 1rem 1rem; /* Añade un poco de espacio entre los íconos */
+  }
+
+  .instagramIcon {
+    font-size: 2.6rem; /* Ajusta el tamaño según sea necesario */
+    color: #D43089; /* Ajusta el color según tus preferencias */
+    margin: 1rem 3rem 1rem 1rem; /* Añade un poco de espacio entre los íconos */
+  }
+
+  .whatsappIcon {
+    font-size: 2.6rem; /* Ajusta el tamaño según sea necesario */
+    color: #25D366; /* Ajusta el color según tus preferencias */
+    margin: 1rem 3rem 1rem 1rem; /* Añade un poco de espacio entre los íconos */
+  }
